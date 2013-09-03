@@ -2,6 +2,16 @@
 
 This app was created to reproduce a potential bug with Immutant. Thanks to the Immutant people in irc! Ya'll rock for helping me with this!
 
+## UPDATE:
+
+The Immutant guys rock. They fixed this VERY quickly.
+
+Filed: [https://issues.jboss.org/browse/IMMUTANT-350](https://issues.jboss.org/browse/IMMUTANT-350)
+
+Fixed: [https://github.com/immutant/immutant/commit/e79c3b499#L0L-1](https://github.com/immutant/immutant/commit/e79c3b499#L0L-1)
+
+End Update
+
 ## Brief Summary
 
 I'm trying to edn encode a joda time (clj-time) to put on a queue.  I've defined a custom writer and reader, and I've added the approriate configuration in /src/data_readers.clj.
